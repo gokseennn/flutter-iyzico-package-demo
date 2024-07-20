@@ -17,7 +17,7 @@ pubspec.yaml dosyanıza aşağıdaki bağımlılığı ekleyin:
 ```yaml
 dependencies:
   iyzico_payment: ^1.0.0
-
+```
 ## Kullanım
 ```import 'package:iyzico_payment/iyzico_payment.dart';
 
@@ -38,8 +38,9 @@ void main() async {
     print('Ödeme hatası: $e');
   }
 }
+```
 
-##IyzicoPayment
+## IyzicoPayment
 ```IyzicoPayment({
   required String apiKey,
   required String secretKey,
