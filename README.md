@@ -1,41 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iyzico_payment</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #007bff;
-        }
-        code {
-            background-color: #f8f9fa;
-            border-radius: 3px;
-            padding: 2px 4px;
-            font-size: 0.9em;
-        }
-        pre {
-            background-color: #f8f9fa;
-            border: 1px solid #e1e1e1;
-            border-radius: 3px;
-            padding: 10px;
-            overflow: auto;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+
 <body>
     <h1>iyzico_payment</h1>
     <p><code>iyzico_payment</code>, Flutter uygulamalarınızda Non-3DS ödeme işlemlerini gerçekleştirmek için kullanılan bir Dart kütüphanesidir. Bu kütüphane, iyzico API'si ile entegrasyon sağlayarak ödeme işlemlerini kolaylaştırır.</p>
@@ -54,7 +18,7 @@
             <pre><code>dependencies:
   iyzico_payment:
     git:
-      url: https://github.com/your-repo-link.git
+      url:https://github.com/gokseennn/flutter-iyzico-package
 </code></pre>
         </li>
         <li><p>Gerekli paketleri yüklemek için terminalde aşağıdaki komutu çalıştırın:</p>
