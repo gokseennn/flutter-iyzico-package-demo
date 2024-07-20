@@ -106,11 +106,6 @@ PaymentRequest paymentRequest = PaymentRequest(
   print("Ödeme başarılı: ${response.body}");
 } catch (e) {
   print("Ödeme başarısız: $e");
-}```
+}
+```
 
-## IyzicoPayment
-```IyzicoPayment({
-  required String apiKey,
-  required String secretKey,
-  String baseUrl = "https://sandbox-api.iyzipay.com"
-})
